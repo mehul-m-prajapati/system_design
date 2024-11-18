@@ -26,17 +26,20 @@ public class Board {
     }
 	
 	public void printBoard() {
+        System.out.println("--------------");
+
 		for (int idx = 0; idx < size; idx++) {
 			for (int jdx = 0; jdx < size; jdx++) {
 				
 				if (board[idx][jdx] != null)
-					System.out.print(board[idx][jdx].pieceType.toString() + "  ");
+					System.out.print(board[idx][jdx].pieceType.toString() + " ");
 				else
 					System.out.print("  ");
 				
 	            System.out.print(" | ");
 			}
             System.out.println();
+            System.out.println("--------------");
 		}
 	}
 	
