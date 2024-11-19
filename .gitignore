@@ -1,0 +1,39 @@
+# Eclipse IDE specific files
+/.project
+/.classpath
+/.settings/
+
+# Eclipse local history
+/.localhistory/
+
+# Eclipse build output directories
+/bin/
+/build/
+
+# Eclipse temp files
+/.factorypath
+
+# Operating system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Java properties files
+*.properties
+
+# JAR files (generated or downloaded)
+*.jar
+
+# Dependency directories (if using Maven/Gradle)
+/.m2/
+/.gradle/
+
+# Others (temporary files)
+*.swp
+*.bak
+*.tmp
